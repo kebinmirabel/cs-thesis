@@ -165,5 +165,5 @@ def test_shannon_entropy_from_csv(csv_file):
 
 
 if __name__ == "__main__":
-    csv_file = "concatenated_qrng.csv"
+    csv_file = "prng_output.csv"
     results = test_shannon_entropy_from_csv(csv_file)

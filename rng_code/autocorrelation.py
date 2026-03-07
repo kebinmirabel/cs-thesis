@@ -279,5 +279,5 @@ def create_acf_plots(binary_results: dict, numeric_results: dict, csv_file: str)
 
 
 if __name__ == "__main__":
-    csv_file = "concatenated_qrng.csv"
+    csv_file = "prng_output.csv"
     results = test_autocorrelation_from_csv(csv_file, max_lag=100)
